@@ -42,6 +42,7 @@
           <artifactId>maven-surefire-plugin</artifactId>
           <version>3.5.2</version>
         </plugin>
+            </plugins>
   
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -49,8 +50,8 @@
                 <configuration>
                     <skip>true</skip>
                 </configuration>
-                </plugin>
-                </plugins>
+                
+             
                 <executions>
                     <execution>
                         <id>unit-tests</id>
